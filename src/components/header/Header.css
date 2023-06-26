@@ -1,0 +1,50 @@
+.header{
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  color: #f5cb5c;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+}
+
+svg{
+  height: 3vh;
+  width: auto;
+}
+
+.title{
+  font-size: 250%;
+  width: 50vw;
+}
+
+.search{
+  width: 25vw;
+  border: #f5cb5c solid;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.searchField{
+  width: 18vw;
+  height: 3vh;
+  cursor: text;
+  border: none;
+  outline: none;
+  color: #f5cb5c;
+}
+
+form > button{
+  color: #f5cb5c;
+  border: none;
+  outline: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
